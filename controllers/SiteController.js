@@ -7,7 +7,7 @@
 */
 const SiteController = {};
 
-SiteController.Index = function(res, resp){
+SiteController.Index = function(res, resp) {
   resp.render("site/index", {
     greeting: "Welcome to EJS!",
     name: "Jence Kade",
@@ -15,13 +15,13 @@ SiteController.Index = function(res, resp){
   });
 }
 
-SiteController.About = function(res,resp){
+SiteController.About = function(res, resp) {
   resp.render('site/about', {
     name: "Jence Kade"
   });
 }
 
-SiteController.Contact = function(res,resp){
+SiteController.Contact = function(res, resp) {
   resp.render('site/contact', {
     name: "Jence Kade",
     jobs: ["Barista", "Model", "Pole Dancer"]
