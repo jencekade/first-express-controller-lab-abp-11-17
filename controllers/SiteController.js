@@ -1,9 +1,10 @@
-/*const SiteController = {
+/*commented out
+const SiteController = {
   name: "Jence Kade",
   greeting: "Welcome to EJS!",
   jobs: ["Barista", "Model", "Pole Dancer"],
   currentJob: "POLE AERIALIST at Spearmint Rhino"
-};
+}; end of comment
 */
 const SiteController = {};
 
